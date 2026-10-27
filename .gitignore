@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Trained model files (re-create with: python train_model.py)
+backend/model/*.pkl
+backend/model/metrics.json
+
+# The real dataset (download it yourself, see README)
+backend/data/Hyderbad_House_price.csv
+
+# Node
+node_modules/
+dist/
+
+# Misc
+.env
+.DS_Store
